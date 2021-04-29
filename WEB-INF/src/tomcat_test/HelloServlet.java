@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
 
 	static final String head="<head><title>sample</title></head>";
-	static final String msg="<div class='msg' id='message'>ここにテキストを書き込みます</div>";
+	static final String msg="<div class='msg' id='message'>ここにテキストを書き込みます。</div>";
 	static final String form="<form method='post'>"
 			+"<p><textarea name='name' cols='60' rows='4'></textarea></p>"
 			+"<p><input name='send' value='write' type='submit' /></p>"
