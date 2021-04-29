@@ -52,7 +52,7 @@ public class HelloServlet extends HttpServlet {
 			}
 		}catch(Exception e) {
 			e.printStackTrace();
-			result="書き込みに失敗しました<br>"+e.getMessage();
+			result="書き込みに失敗しました。<br>"+e.getMessage();
 		}
 		
 		PrintWriter out=resp.getWriter();
