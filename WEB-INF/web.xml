@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app>
+	<servlet>
+		<servlet-name>tomcat_test</servlet-name>
+		<servlet-class>tomcat_test.HelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>tomcat_test</servlet-name>
+		<url-pattern>/servlet</url-pattern>
+	</servlet-mapping>
+</web-app>
